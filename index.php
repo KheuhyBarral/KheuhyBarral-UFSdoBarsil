@@ -3,11 +3,9 @@
 <head>
     <title>PHP Test</title>
 </head>
-<link rel="stylesheet" type="text/css" href="style.css">
-
 <body>
     <header>
-        <h2>Lista Sintética de Ufs do Brasil</h2>
+    <h2 style="text-align: center">Lista Sintética de UFs do Brasil</h2>
         <style>
         table {
             width: 100%;
