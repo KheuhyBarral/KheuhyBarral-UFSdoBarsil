@@ -8,6 +8,23 @@
 <body>
     <header>
         <h2>Lista Sintética de Ufs do Brasil</h2>
+        <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
     </header>
     <main>
         <?php
@@ -450,24 +467,24 @@
         ];?>
 
 
-        <table>
-
+<table>
             <thead>
-                <th>Bandeira</th>
-                <th>Unidade Federativa</th>
-                <th>Abreviação</th>
-                <th>Sede de Governo</th>
-                <th>Área</th>
-                <th>População</th>
-                <th>Densidade Demográfica</th>
-                <th>PIB (2015)</th>
-                <th>PIB em &#37; Total</th>
-                <th>PIB per capta</th>
-                <th>IDH</th>
-                <th>Alfabetização</th>
-                <th>Mortalidade Infantil</th>
-                <th>Expectativa de Vida</th>
-
+                <tr>
+                    <th>Bandeira</th>
+                    <th>Unidade Federativa</th>
+                    <th>Abreviação</th>
+                    <th>Sede de Governo</th>
+                    <th>Área</th>
+                    <th>População</th>
+                    <th>Densidade Demográfica</th>
+                    <th>PIB (2015)</th>
+                    <th>PIB em % Total</th>
+                    <th>PIB per Capita</th>
+                    <th>IDH</th>
+                    <th>Alfabetização</th>
+                    <th>Mortalidade Infantil</th>
+                    <th>Expectativa de Vida</th>
+                </tr>
             </thead>
             <tbody>
                 <?php
